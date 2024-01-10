@@ -7,8 +7,7 @@ This project features an App and Python File utilizing the [PyAutoGUI Lib](https
 Experience the power of Python with a user-friendly interface, enhanced UI, and completely free.
 
 ## 🚧 Known bugs:
-- API Provider redirecting GPT-4 model to GPT-3.5;
-- Auto Proxy is not working.
+- Pasting to special input boxes
 
 _Coding to solve as quickly as possible_
 
