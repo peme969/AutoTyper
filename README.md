@@ -20,7 +20,7 @@ _Coding to solve as quickly as possible_
 
 <hr>
 ## Getting Started
-<be>
+<br>
 To get started with this project, you'll need to clone the repository and have [Python](https://www.python.org/downloads/) and [Git for Windows](https://gitforwindows.org/installed) or [Git for Mac](https://www.freecodecamp.org/news/setup-git-on-mac/) on your system.  
 
 ### Cloning the Repository :inbox_tray:
