@@ -2,7 +2,7 @@
 
 ## About
 
-This project features an App utilizing the [PyAutoGUI Lib](https://pypi.org/project/PyAutoGUI/). <br>
+This project features an App utilizing the [PyAutoGUI Lib](https://pypi.org/project/PyAutoGUI/) and [PaperClip Lib](https://pypi.org/project/pyperclip3/). <br>
 Experience the power of Python with a user-friendly interface, enhanced UI, and completely free.
 
 ## 🚧 Known bugs:
