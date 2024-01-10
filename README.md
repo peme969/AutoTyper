@@ -1,3 +1,47 @@
-# Autotyper & Clipboard Paster
+## Autotyper & Clipboard Paster
 
- Types automatically and pastes in 3 seconds in any input box/field
+<br>
+## About
+This project features an App and Python File utilizing the [PyAutoGUI Lib]([https://github.com/xtekky/gpt4free](https://pypi.org/project/PyAutoGUI/)). <br>
+Experience the power of Python with a user-friendly interface, enhanced UI, and completely free.
+
+<br>
+## 🚧 Known bugs:
+- API Provider redirecting GPT-4 model to GPT-3.5;
+- Auto Proxy is not working.
+
+_Coding to solve as quickly as possible_
+
+ ## Table of Contents  
+- [About](#about)  
+- [Getting Started](#getting-started)  
+  - [Cloning the Repository](#cloning-the-repository-inbox_tray)  
+  - [Install Libraries](#install-libraries-wrench)  
+- [Running the Application](#running-the-application-rocket)  
+
+<hr>
+<br>
+## Getting Started
+<br>
+To get started with this project, you'll need to clone the repository and have [Python](https://www.python.org/downloads/) and [Git (Windows)](https://gitforwindows.org/installed)/[Git (Mac)](https://www.freecodecamp.org/news/setup-git-on-mac/) on your system.  
+
+### Cloning the Repository :inbox_tray:
+Run the following command to clone the repository:  
+
+```
+git clone https://github.com/peme969/Autotyper---Clipboard-Paster.git
+```
+# Install Libraries 🔧
+If you do not have Python downloaded, you can just download it here [Python Download Page](https://www.python.org/downloads/) to get started.
+Navigate to the project directory:
+```
+cd Autotyper---Clipboard-Paster
+```
+Install the dependencies:
+```
+pip install -r requirements.txt
+```
+## Running the Application :rocket:
+To run the application, press the tester.exe file.
+Click the Paste Button and with your mouse press any input box/field then after 3 seconds the program will paste the latest text from your clipboard to the input box/field
+
