@@ -28,13 +28,13 @@ To get started with this project, you'll need to clone the repository and have [
 Run the following command to clone the repository:  
 
 ```
-git clone https://github.com/peme969/Autotyper---Clipboard-Paster.git
+git clone https://github.com/peme969/Clipboard-Paster.git
 ```
 ### Install Libraries 🔧
 If you do not have Python downloaded, you can just download it here [Python Download Page](https://www.python.org/downloads/) to get started.
 Navigate to the project directory:
 ```
-cd Autotyper---Clipboard-Paster
+cd Clipboard-Paster
 ```
 Install the dependencies:
 ```
