@@ -1,6 +1,7 @@
 ## Autotyper & Clipboard Paster
 
 <br>
+
 ## About
 
 This project features an App and Python File utilizing the [PyAutoGUI Lib](https://pypi.org/project/PyAutoGUI/). <br>
@@ -12,7 +13,6 @@ Experience the power of Python with a user-friendly interface, enhanced UI, and 
 _Coding to solve as quickly as possible_
 
  ## Table of Contents  
-- [About](#about)  
 - [Getting Started](#getting-started)  
   - [Cloning the Repository](#cloning-the-repository-inbox_tray)  
   - [Install Libraries](#install-libraries-wrench)  
