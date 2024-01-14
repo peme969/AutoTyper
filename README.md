@@ -17,6 +17,7 @@ _Coding to solve as quickly as possible_
 - [Running the Application](#running-the-application-rocket)  
 
 <hr>
+
 ## Getting Started:
 
 ### Download ZIP
