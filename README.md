@@ -24,10 +24,10 @@ _Coding to solve as quickly as possible_
 
 <br>
 
-To get started with this project, you'll need to press the Download ZIP button to download zip folder to system:
+To get started with this project, you'll need to press the "Download ZIP" button to download zip folder to system:
 ![image](https://github.com/peme969/Clipboard-Paster/assets/136040410/55cfa37b-ddf7-4af0-8ab0-b072062859ac)
 
 ## Running the Application :rocket:
 To run the application, press the writer.exe file.
-Click the Write Now Button and then input the text you want to write. In 3 seconds the automation will start, writing the text given by user 0.000001 per character
+Click the Write Now Button and then input the text you want to write. In 3 seconds the automation will start, writing the text (at the cursor's position) given by user 0.000001 per character
 
