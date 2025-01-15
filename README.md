@@ -1,4 +1,4 @@
-## Clipboard Paster
+## AutoTyper - A Python GUI Library for copying & pasting large amounts of text by controlling your mouse
 
 ## About
 
