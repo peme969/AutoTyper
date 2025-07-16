@@ -27,11 +27,15 @@ AutoTyper is a lightweight Python application that uses PyAutoGUI and Tkinter to
 ---
 
 ## 📦 Installation
+<img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/76a90f52-c4eb-402d-9d10-3bb6134612d9" />
 
-Download the appropriate build for your platform:
+Click the the latest release from the Releases section ^
+<img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/187d33ee-8877-4cc4-8adc-8fd524d2e6f3" />
 
-- **macOS**: Download `AutoTyper.app`.
-  1. Double‑click to open. 
+Then, download the appropriate build for your platform:
+
+- **macOS**: Download `AutoTyper.app.zip`.
+  1. Double‑click to open. (should auto-extract)
   2. Move **AutoTyper.app** to your **Applications** folder.
   3. Grant Accessibility permissions when prompted (System Preferences → Security & Privacy → Privacy → Accessibility).
   4. (Optional) Right-click AutoTyper in your dock and choose "Keep in Dock" from the menu (Right-click AutoTyper -> Options -> Keep in Dock)
