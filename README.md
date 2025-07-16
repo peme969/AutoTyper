@@ -1,33 +1,116 @@
-## AutoTyper - A Python GUI Library for copying & pasting large amounts of text by controlling your mouse
 
-## About
+# AutoTyper
 
-This project features an App utilizing the [PyAutoGUI Lib](https://pypi.org/project/PyAutoGUI/).
-<br>
-Experience the power of Python with a user-friendly interface, enhanced UI, and completely free.
+AutoTyper is a lightweight Python application that uses PyAutoGUI and Tkinter to automate typing of large blocks of text. Simply enter your text, hit “Write Now,” and AutoTyper will wait for a configurable delay before “typing” it at the cursor position—perfect for demonstrations, demos, or repetitive text entry.
 
-## 🚧 Known bugs:
-- Pasting to special input boxes (Websites that block you)
+---
 
-_Coding to solve as quickly as possible_
+## 🚀 About
 
- ## Table of Contents  
-- [Getting Started](#getting-started)  
-  - [Downloading the File](#download-zip)   
-- [Running the Application](#running-the-application-rocket)  
+- **Cross‑Platform**: Runs on Windows (11+) and macOS (Intel & Apple Silicon).  
+- **Configurable Delays**: Set both a start delay and a per‑character typing interval.  
+- **Customizable Appearance**: Choose font family, font size, text color, background color, and “always on top” behavior.  
+- **Persistent Settings**: All preferences are saved in `~/.text_writer_config.json`.
 
-<hr>
+---
 
-## Getting Started:
+## 📦 Installation
 
-### Download ZIP
+Download the appropriate build for your platform:
 
-<br>
+- **macOS**: Download `AutoTyper.app`.
+  1. Double‑click to open. 
+  2. Move **AutoTyper.app** to your **Applications** folder.
+  3. Grant Accessibility permissions when prompted (System Preferences → Security & Privacy → Privacy → Accessibility).
 
-To get started with this project, you'll need to press the "Download ZIP" button to download zip folder to system:
-![image](https://github.com/peme969/Clipboard-Paster/assets/136040410/55cfa37b-ddf7-4af0-8ab0-b072062859ac)
+- **Windows**: Download `AutoTyper.exe`.
+  1. Double‑click to run. 
+  2. (Optional) Right‑click the running app in your taskbar and choose **Pin to taskbar** for quick access.
 
-## Running the Application :rocket:
-To run the application, press the writer.exe file.
-Click the Write Now Button and then input the text you want to write. In 3 seconds the automation will start, writing the text (at the cursor's position) given by user 0.000001 per character
+---
 
+## 🎯 Usage
+
+1. Launch **AutoTyper**.  
+2. Enter the text you’d like “typed.”  
+3. (Optional) Open **Options → Settings…** to adjust:
+   - **Start Delay**: Seconds before typing begins.
+   - **Per‑Character Delay**: Interval between each keystroke.
+   - **Font & Size**: Preview text appearance.
+   - **Text / Background Color**: For the dialog UI.
+   - **Always on Top**: Keep the window in front.  
+4. Click **Write Now**. The app disappears, waits your start delay, then “types” the text at the active cursor. A “Success!” popup appears when finished.
+
+---
+
+## 📝 Configuration
+
+All settings are stored in JSON at:
+
+```
+
+\~/.text\_writer\_config.json
+
+````
+
+Feel free to edit it directly, or use the GUI **Settings** dialog to change:
+
+```json
+{
+  "start_delay": 3.0,
+  "delay": 0.0,
+  "font": "Segoe UI",
+  "font_size": 12,
+  "text_color": "#000000",
+  "bg_color": "#ffffff",
+  "always_on_top": false
+}
+````
+
+---
+
+## 📣 v2 Release Notes
+
+**Version 2.0** — *July 2025*
+
+* **Brand‑new UI**
+  Redesigned with Tkinter’s Clam theme for a cleaner, more intuitive look.
+* **Settings Page**
+  Full settings dialog to tweak start delay, per‑character delay, font, size, colors, and “always on top.”
+* **Cross‑Platform Compatibility**
+  • **Windows 11** tested
+  • **macOS Intel & Apple Silicon** supported
+* **Persistent Configuration**
+  All preferences saved automatically to your home directory.
+* **Toolbar & Menu Integration**
+  Quick‑access ⚙️ icon and Options → Settings… menu entry.
+
+---
+
+## 🗒️ Changelog
+
+* **v2.0**
+
+  * New settings UI
+  * Customizable font, color, and delay options
+  * macOS support (Intel & M1/M2)
+  * Enhanced “Success!” confirmation popup
+* **v1.x**
+
+  * Windows‑only initial release
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repo
+2. Create your feature branch: `git checkout -b feature/YourFeature`
+3. Commit your changes: `git commit -m "Add awesome feature"`
+4. Push to branch: `git push origin feature/YourFeature`
+5. Open a Pull Request
+
+---
+
+## 📜 License
+
+MIT © Peme969 (14‑year‑old junior dev)
