@@ -1,13 +1,25 @@
 
 # AutoTyper
 
+## 📑 Table of Contents
+
+- [About](#-about)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Configuration](#-configuration)
+- [v2 Release Notes](#-v2-release-notes)
+- [Changelog](#-changelog)
+- [Support](#-support)
+- [Contributing](#-contributing)
+- [License](#-license)
+  
 AutoTyper is a lightweight Python application that uses PyAutoGUI and Tkinter to automate typing of large blocks of text. Simply enter your text, hit “Write Now,” and AutoTyper will wait for a configurable delay before “typing” it at the cursor position—perfect for demonstrations, demos, or repetitive text entry.
 
 ---
 
 ## 🚀 About
 
-- **Cross‑Platform**: Runs on Windows (11+) and macOS (Intel & Apple Silicon).  
+- **Cross‑Platform**: Runs on Windows (10+) and macOS (Intel & Apple Silicon).  
 - **Configurable Delays**: Set both a start delay and a per‑character typing interval.  
 - **Customizable Appearance**: Choose font family, font size, text color, background color, and “always on top” behavior.  
 - **Persistent Settings**: All preferences are saved in `~/.text_writer_config.json`.
@@ -39,7 +51,7 @@ Download the appropriate build for your platform:
    - **Font & Size**: Preview text appearance.
    - **Text / Background Color**: For the dialog UI.
    - **Always on Top**: Keep the window in front.  
-4. Click **Write Now**. The app disappears, waits your start delay, then “types” the text at the active cursor. A “Success!” popup appears when finished.
+4. Click **Write Now**. The app disappears, waits your start delay, then “types” the text at the active cursor. A “Success!” popup appears when finished (and disappears within 2 seconds).
 
 ---
 
@@ -87,18 +99,30 @@ Feel free to edit it directly, or use the GUI **Settings** dialog to change:
 
 ---
 
-## 🗒️ Changelog
+## Changelog
 
-* **v2.0**
+- **v2.0**
 
   * New settings UI
   * Customizable font, color, and delay options
   * macOS support (Intel & M1/M2)
   * Enhanced “Success!” confirmation popup
-* **v1.x**
+- **v1.x**
 
   * Windows‑only initial release
+  * Write-Now button ONLY with fixed per-char and start delay
 
+---
+
+## 💖 Support
+
+If you’re finding AutoTyper useful, help me out by:
+
+⭐ Starring this repository
+
+🔔 Following me on GitHub: Peme969
+
+Your support keeps the project going!
 ---
 
 ## 🤝 Contributing
