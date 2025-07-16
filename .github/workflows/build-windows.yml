@@ -1,0 +1,39 @@
+# .github/workflows/build-windows.yml
+name: Build Windows AutoTyper
+
+permissions:
+  contents: write
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: |
+          pip install --upgrade pip
+          pip install pyinstaller pyautogui pillow
+
+      - name: Build .exe
+        run: pyinstaller --windowed --onefile --name "AutoTyper" --icon icon.icns writer.py
+
+      - name: Upload Windows asset
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url:        ${{ github.event.release.upload_url }}
+          asset_path:        dist/AutoTyper.exe
+          asset_name:        AutoTyper-Windows.exe
+          asset_content_type: application/octet-stream
+        env:
+          GITHUB_TOKEN:     ${{ secrets.GITHUB_TOKEN }}
