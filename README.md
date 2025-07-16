@@ -34,6 +34,7 @@ Download the appropriate build for your platform:
   1. Double‑click to open. 
   2. Move **AutoTyper.app** to your **Applications** folder.
   3. Grant Accessibility permissions when prompted (System Preferences → Security & Privacy → Privacy → Accessibility).
+  4. (Optional) Right-click AutoTyper in your dock and choose "Keep in Dock" from the menu (Right-click AutoTyper -> Options -> Keep in Dock)
 
 - **Windows**: Download `AutoTyper.exe`.
   1. Double‑click to run. 
