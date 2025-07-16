@@ -101,13 +101,13 @@ Feel free to edit it directly, or use the GUI **Settings** dialog to change:
 
 ## Changelog
 
-- **v2.0**
+- **v2.0.0**
 
   * New settings UI
   * Customizable font, color, and delay options
   * macOS support (Intel & M1/M2)
   * Enhanced “Success!” confirmation popup
-- **v1.x**
+- **v1.0.0**
 
   * Windows‑only initial release
   * Write-Now button ONLY with fixed per-char and start delay
