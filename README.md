@@ -66,7 +66,7 @@ All settings are stored in JSON at:
 
 ```
 
-~.text_writer_config.json
+~/.text_writer_config.json
 
 ````
 
