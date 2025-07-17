@@ -7,8 +7,6 @@
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Configuration](#-configuration)
-- [v2 Release Notes](#-v2-release-notes)
-- [Changelog](#changelog)
 - [Support](#-support)
 - [Contributing](#-contributing)
 - [License](#-license)
@@ -83,40 +81,6 @@ Feel free to edit it directly, or use the GUI **Settings** dialog to change:
   "always_on_top": false
 }
 ````
-
----
-
-## 📣 v2 Release Notes
-
-**Version 2.0** — *July 2025*
-
-* **Brand‑new UI**
-  Redesigned with Tkinter’s Clam theme for a cleaner, more intuitive look.
-* **Settings Page**
-  Full settings dialog to tweak start delay, per‑character delay, font, size, colors, and “always on top.”
-* **Cross‑Platform Compatibility**
-  • **Windows 11** tested
-  • **macOS Intel & Apple Silicon** supported
-* **Persistent Configuration**
-  All preferences saved automatically to your home directory.
-* **Toolbar & Menu Integration**
-  Quick‑access ⚙️ icon and Options → Settings… menu entry.
-
----
-
-## Changelog
-
-- **v2.0.0**
-
-  * New settings UI
-  * Customizable font, color, and delay options
-  * macOS support (Intel & M1/M2)
-  * Enhanced “Success!” confirmation popup
-- **v1.0.0**
-
-  * Windows‑only initial release
-  * Write-Now button ONLY with fixed per-char and start delay
-
 ---
 
 ## 💖 Support
