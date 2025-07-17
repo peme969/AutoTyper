@@ -8,7 +8,7 @@
 - [Usage](#-usage)
 - [Configuration](#-configuration)
 - [v2 Release Notes](#-v2-release-notes)
-- [Changelog](#-changelog)
+- [Changelog](#changelog)
 - [Support](#-support)
 - [Contributing](#-contributing)
 - [License](#-license)
